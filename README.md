@@ -34,11 +34,21 @@ This project shows how to dockerize a basic React application and explore key Do
 
 <pre>
 .
+├── .dockerignore
 ├── Dockerfile
+├── README.md
+├── index.html
 ├── package.json
+├── package-lock.json
+├── tsconfig.json
+├── tsconfig.node.json
+├── vite.config.ts
 ├── src/
+│   ├── main.tsx
+│   ├── App.tsx
+│   └── assets/
 ├── public/
-└── README.md
+└── node_modules/
 </pre>
 
 <h2>⚙️ Getting Started</h2>
